@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>QR-Code-Generator</h2>
+      <input type="text" id="text" placeholder="Metin veya URL girin..." />
+      <button onclick="generateQRCode()">QR-Code erstellen</button>
+      <div id="qrcode"></div>
+      <button id="download" style="display: none" onclick="downloadQRCode()">
+        QR-Code herunterladen
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
